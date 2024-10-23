@@ -20,3 +20,116 @@ body{
     font-family: "Poppins", sans-serif;
 }
 /* common css end */
+
+
+ /* Featured Products start  */
+
+    #feature{
+        background: #a8b9ee;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #feature .feture_header{
+        text-align: center;
+    }
+
+    #feature .feture_header .header{
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 5px;
+    }
+
+
+    #feature .feture_header .sub_header{
+        margin-bottom: 25px;
+        font-size: 15px;
+        color: #01132d;
+        line-height: 26px;
+    }
+
+    .pro_itms_group{
+        /* background: blue; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p_item{
+        max-width: 20%;
+        /* height: 379px; */
+        padding: 0 5px 10px 5px;
+    }
+
+    .p_item .p_item_inner{
+        width: 100%;
+        height: 100%;
+        background: #ffffff;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    }
+
+    .p_item_inner .rating_box {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 15px;
+        left: 0;
+    }
+
+  .p_item_inner .rating_box .rate{
+        background: #6e2594;
+        color: #fff;
+        display: inline-block;
+        padding: 3px 10px;
+        font-size: 12px;
+        line-height: 14px;
+        border-radius: 0 20px 20px 0;
+    }
+
+    .p_item_inner .product_img{
+        padding: 20px;
+        height: 250px;
+        width: 100%;
+        border-bottom: 3px solid rgba(55, 73, 187, .03);
+    }
+
+    .product_img img{
+        max-width: 100%;
+    }
+
+    .product_details{
+        padding:15px;
+    }
+
+    .product_details .pro_name{
+        height: 60px;
+        margin-bottom: 15px;
+        line-height: 0px;
+    }
+
+    .product_details .pro_name a{
+        font-size: 14px;
+        font-weight: 400;
+        color: #111;
+        line-height: 20px;
+    }
+
+    
+    .pro_price .new_pice{
+        color: #ef4a23;
+        line-height: 22px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .pro_price .old_pice{
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: line-through;
+        color: #666;
+        padding-left: 5px;
+    }
+    
+
+ /* Featured Products  end  */
