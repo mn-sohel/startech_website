@@ -98,12 +98,73 @@ body{
     border: none;
     border-radius: 5px;
 }
-
-
-
-
-
-
-
-
 /* Banner part css endss */
+
+/* Featured Category part start */
+#featured{
+    padding-top: 55px ;
+    padding-bottom: 97px;
+    background-color: #F2F4F8;
+}
+.featured_weapper{
+    text-align: center;
+}
+.featured_weapper h2{
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.featured_weapper p{
+    font-size: 15px;
+    color: #01132d;
+    line-height: 26px;
+    padding-bottom: 25px;
+    
+}
+.featured_itme_one{
+    display: flex;
+    column-gap: 5px;
+    padding-bottom: 17px;
+}
+.featured_itme_one a .featured_product p:hover{
+    color: #ef4a23;
+}
+.featured_product{
+    width: 150px;
+    height: 134px;
+    background-color:#fff;
+    border-radius: 20px;
+    padding-top: 20%;
+}
+.featured_product p{
+    color: #01132d;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 10%;
+}
+.laptop p{
+    font-size: 14px;
+}
+.mobile_accessories p{
+    font-size: 14px;
+}
+
+.featured_itme_two{
+    display: flex;
+    column-gap: 5px;
+}
+.featured_itme_two a .featured_product p:hover{
+    color: #ef4a23;
+}
+.power_station p{
+    font-size: 10px;
+}
+.virtual_eality p{
+    font-size: 14px;
+}
+.bluetooth_speakers p{
+    font-size: 14px;
+}
+
+/* Featured Category part start */
