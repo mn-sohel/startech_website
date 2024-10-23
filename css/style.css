@@ -20,3 +20,56 @@ body{
     font-family: "Poppins", sans-serif;
 }
 /* common css end */
+
+/* Featured Category part start */
+#featured{
+    margin-top: 55px;
+    background-color: #f2f4f8;
+}
+.featured_wrapper h2{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.featured_wrapper h4{
+    font-size: 15px;
+    line-height: 26px; 
+    color: #01132d;
+    text-align: center;
+    margin-bottom: 25px;
+  
+}
+.featured_item_wrapper{
+   background-color: #f2f4f8;
+}
+.featured_item_one{
+    display: flex;
+    column-gap: 5px;
+    padding-bottom: 15px;
+
+}
+.featured_item_two{
+    display: flex;
+    column-gap: 5px;
+}
+.featured_item{
+    width: 150px;
+    height: 134px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+
+.featured_item img{
+    padding: 30% 30% 0 30%;
+}
+.featured_item span{
+    font-size: 15px;
+    color: #01132d;
+}
+
+/* Featured Category part End */
