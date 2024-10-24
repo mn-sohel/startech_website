@@ -18,6 +18,8 @@ a{
 
 body{
     font-family: "Poppins", sans-serif;
+    background: #f2f4f8;
+
 }
 /* common css end */
 
@@ -25,9 +27,7 @@ body{
  /* Featured Products start  */
 
     #feature{
-        background: #a8b9ee;
         padding-top: 50px;
-        padding-bottom: 50px;
     }
 
     #feature .feture_header{
@@ -36,6 +36,7 @@ body{
 
     #feature .feture_header .header{
         font-size: 20px;
+        font-weight: 600;
         line-height: 26px;
         margin-bottom: 5px;
     }
@@ -49,14 +50,12 @@ body{
     }
 
     .pro_itms_group{
-        /* background: blue; */
         display: flex;
         flex-wrap: wrap;
     }
 
     .p_item{
         max-width: 20%;
-        /* height: 379px; */
         padding: 0 5px 10px 5px;
     }
 
@@ -133,3 +132,47 @@ body{
     
 
  /* Featured Products  end  */
+
+
+ /* Description start  */
+
+    #description{
+        padding: 50px;
+    }
+
+    #description h2{
+        font-size: 22px ;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+
+    #description p{
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: #01132d;
+        line-height: 26px;
+    }
+
+    #description p a{
+        color: #ef4a23;
+    }
+
+    #description p a:hover{
+        text-decoration: underline;
+    }
+    
+     h3{
+        font-weight: normal;
+        font-size: 18px;
+        margin: 25px 0 18px;
+    }
+
+    /* h3:last-child{
+        font-weight: bold;
+    } */
+
+
+
+
+ /* Description end */
