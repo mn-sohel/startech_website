@@ -45,6 +45,28 @@ body{
     border-radius: 5px;
 }
 
+.facility_item{
+    column-gap: 15px;
+    align-items: center;
+}
+.facility_image i{
+    color: #ef4a23;
+    font-size: 20px;
+}
+.facility_content h4{
+    color: #fff;
+    font-weight: 18px;
+    font-weight: 500;
+    /* margin-bottom: 5px; */
+}
+.facility_content p{
+    color: #000;
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
 .search_btn span i{
     position: absolute;
     content: "";
