@@ -3,15 +3,18 @@
     margin: 0;
     padding: 0;
 }
+
 ul,ol{
     list-style-type: none;
     padding-left: 0 ;
     margin-bottom: 0;
 }
+
 h1,h2,h3,h4,h5,h6,p{
     line-height: 0.8;
     margin-bottom: 0;
 }
+
 a{
     text-decoration: none;
 }
@@ -19,7 +22,6 @@ a{
 body{
     font-family: "Poppins", sans-serif;
     background: #f2f4f8;
-
 }
 /* common css end */
 
@@ -29,9 +31,11 @@ body{
     background-color: rgba(8, 22, 33, 0.5);
     /* background-color: #081621; */
 }
+
 .search_btn{
     position: relative;
 }
+
 .search_btn button{
     padding: 0 200px;
     height: 52px;
@@ -40,6 +44,7 @@ body{
     /* padding-left: 30px; */
     border-radius: 5px;
 }
+
 .search_btn span i{
     position: absolute;
     content: "";
@@ -51,6 +56,7 @@ body{
     display: flex;
     padding: 10px 0;
 }
+
 .list_items a{
     transition: all linear .3s;
     font-size: 16px;
@@ -60,6 +66,7 @@ body{
 .list_items a:hover{
     color: red;
 }
+
 /* Navbar part css ends */
 
 /* Banner part css starts */
@@ -85,6 +92,7 @@ body{
     font-weight: 500;
     text-transform: capitalize;
 }
+
 .banner_right p{
     color: #000;
     opacity: 0.7;
@@ -93,6 +101,7 @@ body{
     margin: 20px 0;
     text-transform: capitalize;
 }
+
 .banner_right_btn button{
     padding: 5px 20px;
     margin-bottom: 10px;
@@ -107,30 +116,35 @@ body{
     padding-bottom: 97px;
     background-color: #F2F4F8;
 }
+
 .featured_weapper{
     text-align: center;
 }
+
 .featured_weapper h2{
     font-size: 20px;
     line-height: 26px;
     margin-bottom: 5px;
     font-weight: bold;
 }
+
 .featured_weapper p{
     font-size: 15px;
     color: #01132d;
     line-height: 26px;
-    padding-bottom: 25px;
-    
+    padding-bottom: 25px;    
 }
+
 .featured_itme_one{
     display: flex;
-    column-gap: 5px;
+    justify-content: space-around;
     padding-bottom: 17px;
 }
+
 .featured_itme_one a .featured_product p:hover{
     color: #ef4a23;
 }
+
 .featured_product{
     width: 150px;
     height: 134px;
@@ -138,12 +152,14 @@ body{
     border-radius: 20px;
     padding-top: 20%;
 }
+
 .featured_product p{
     color: #01132d;
     text-transform: uppercase;
     font-size: 16px;
     padding-top: 10%;
 }
+
 .laptop p{
     font-size: 14px;
 }
@@ -153,7 +169,7 @@ body{
 
 .featured_itme_two{
     display: flex;
-    column-gap: 5px;
+    justify-content: space-around;
 }
 .featured_itme_two a .featured_product p:hover{
     color: #ef4a23;
