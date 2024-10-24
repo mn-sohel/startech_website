@@ -167,11 +167,9 @@ body{
 .bluetooth_speakers p{
     font-size: 14px;
 }
-
 /* Featured Category part start */
 
  /* Featured Products start  */
-
     #feature{
         padding-top: 50px;
     }
@@ -275,13 +273,9 @@ body{
         color: #666;
         padding-left: 5px;
     }
-    
-
  /* Featured Products  end  */
 
-
  /* Description start  */
-
     #description{
         padding: 50px;
     }
@@ -313,13 +307,4 @@ body{
         font-size: 18px;
         margin: 25px 0 18px;
     }
-
-    /* h3:last-child{
-        font-weight: bold;
-    } */
-
-
-
-
- /* Description end */
  /* Description end */
