@@ -49,13 +49,23 @@ body{
     column-gap: 15px;
     align-items: center;
 }
+
+.facility_item .pc_button{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #1D62A5;
+    border: none;
+    border-radius: 8px;
+}
+
+
 .facility_image i{
     color: #ef4a23;
     font-size: 20px;
 }
 .facility_content h4{
     color: #fff;
-    font-weight: 18px;
+    font-size: 18px;
     font-weight: 500;
     /* margin-bottom: 5px; */
 }
@@ -64,7 +74,7 @@ body{
     opacity: 0.8;
     font-size: 12px;
     font-weight: 400;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .search_btn span i{
@@ -130,6 +140,108 @@ body{
     border: none;
     border-radius: 5px;
 }
+
+.right_up{
+    margin-bottom: 30px;
+}
+
+.rigbt_bottom img{
+    width: 100%;
+    height: 150%;
+}
+
+.banner_right .comparison_btn{
+    border: 2px solid rgb(19, 19, 218);
+    color: rgb(19, 19, 218);
+    transition: all linear 0.3s;
+
+}
+
+.banner_right .comparison_btn:hover{
+    background-color: rgb(19, 19, 218);
+    color: #fff;
+}
+
+.details_parent{
+    padding-top: 70px;
+}
+.details_item{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+
+}
+
+.details_image span i{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.details_image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #EF4A23;   
+}
+
+.details_content h6{
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.details_content p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.scrolling{
+    margin-top: 35px;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Banner part css endss */
 
 /* Featured Category part start */
